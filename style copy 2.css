@@ -1,0 +1,111 @@
+/* CSS Bài 1 */
+/* reset css */
+*{
+    padding: 0;
+    margin: 0;
+}
+.vmenu{
+    padding:0 px;
+    margin:5px;
+    list-style:none;
+    border-radius:3px;
+    box-shadow:0 0 2px gray;
+}
+.vmenu a{
+    background: url('img/1.gif') no-repeat 3px center;
+    display: block;
+    border-bottom: 0px dotted orangered;
+    color: orangered;
+    font-variant: small-caps;
+    font-size: larger;
+    text-decoration: none;
+    padding: 8px 5px 8px 30px;
+    box-shadow: 0 0 1px grey;
+}
+.vmenu a:hover{
+    background: url('img/2.gif') no-repeat 5px center;
+    border-bottom: 1px dotted white;
+    background-color: orangered;
+    color: white;
+    font-weight: bold;
+    background-position: left;
+}
+/* CSS Bài 2 */
+/* .col-25{
+    width:25%;
+    float:left;
+} */
+.product{
+    padding: 10px 2px 2px 177px
+}
+.prod{
+    border-radius: 10px;
+    box-shadow: 0 0 5px grey;
+    margin: 7px;
+    padding: 5px;
+    text-align: center;
+    position: relative;
+    float: left;
+    height: 330px;
+    width: 20%;
+}
+.prod:hover{
+    transform: scale(0.97);
+    /* phóng to lên 10% */
+    /* opacity: 0.5;  */
+}
+
+.prod .name{
+    font-variant:small-caps;
+    color:orangered   ;
+    font-size: 26px;
+    padding: 0px 24px 0 0;
+}
+
+.prod>.icons {
+    position: absolute;
+    right: 13px;
+    bottom: 29px;
+    width: 26px;
+}
+.prod>.icons:hover{
+    transform: scale(0.97);
+}
+/* .prod .icons img{
+    width: 25px;
+    height: 25px;
+} */
+.prod .img{
+    width: 265px;
+    padding: 0px 20px 0 0;
+    height: 265px;
+    margin-bottom: 10px;
+    
+}
+
+.prod>.price{
+    position:absolute;
+    left:5px;
+    bottom:5px;
+    font-family:Impact;
+    font-size:31px;
+    padding: 0px 0 0 11px;
+    color:orange; 
+    
+}
+
+.prod> .icons img{
+    width: 25px;
+    height: 25px;
+    transition: 0.3s ease-in-out;
+}
+.prod> .icons img:hover{
+    
+}
+.prod> .new-icon{
+    position:absolute;
+    top:0;
+    right:0;
+    width: 93px;
+}
+
